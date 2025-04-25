@@ -1,0 +1,44 @@
+@import "tailwindcss";
+
+/* General Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  input, select, button {
+    transition: all 0.3s ease;
+  }
+  
+  /* Media Query for Mobile Screens */
+  @media (max-width: 768px) {
+    .container {
+      padding: 4px;
+    }
+  
+    .form-container {
+      padding: 8px;
+    }
+  
+    .form-input {
+      width: 100%;
+    }
+  
+    .grid-cols-3 {
+      grid-template-columns: 1fr !important; /* Stacking the columns in a single column for mobile */
+    }
+  
+    .btn-container {
+      justify-content: center;
+    }
+  
+    .header {
+      text-align: center;
+      padding: 12px;
+    }
+  
+    .footer {
+      text-align: center;
+      padding: 12px;
+    }
+  }
+  
