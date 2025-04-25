@@ -1,6 +1,5 @@
 @import "tailwindcss";
 
-/* General Styles */
 body {
     font-family: 'Roboto', sans-serif;
   }
@@ -9,7 +8,6 @@ body {
     transition: all 0.3s ease;
   }
   
-  /* Media Query for Mobile Screens */
   @media (max-width: 768px) {
     .container {
       padding: 4px;
@@ -24,7 +22,7 @@ body {
     }
   
     .grid-cols-3 {
-      grid-template-columns: 1fr !important; /* Stacking the columns in a single column for mobile */
+      grid-template-columns: 1fr !important; 
     }
   
     .btn-container {
